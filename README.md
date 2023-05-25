@@ -89,4 +89,6 @@ kubectl delete ([-f FILENAME] | TYPE [(NAME | -l label | --all)])
 5.查看是否运行成功,可以看到启动成功
 
 <img width="561" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/519bef06-a81a-42a3-8ef8-941ed1e8bf42">
+<img width="558" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/1afecf8e-c488-46ea-9b7f-47f54b1a3d35">
+
 
