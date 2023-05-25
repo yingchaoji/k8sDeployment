@@ -35,5 +35,6 @@ spec:
       containers:
       - name:  demo-container
         image: k8sdemo:1.0
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8701
