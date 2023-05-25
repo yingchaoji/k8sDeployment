@@ -74,3 +74,19 @@ kubectl delete ([-f FILENAME] | TYPE [(NAME | -l label | --all)])
 
 
 ## 通过 Deployment 部署应用
+1. 启动minikube：
+<img width="495" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/6d6caf01-08b0-42eb-b6e6-f802f648b1aa">
+
+2. docker 打包镜像
+<img width="438" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/78894fff-8b87-4d26-b4a2-056f153d5967">
+
+3. minikube 查看镜像
+<img width="364" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/2089bb77-73ae-4027-978c-36a5027fba17">
+
+4. 部署k8s yml文件，因为之前部署过service会报错，但没关系会继续使用之前的
+<img width="422" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/d0ff46ee-bbff-457e-bd40-2f7f1c23cd92">
+
+5.查看是否运行成功,可以看到启动成功
+
+<img width="561" alt="image" src="https://github.com/yingchaoji/k8sDeployment/assets/108948376/519bef06-a81a-42a3-8ef8-941ed1e8bf42">
+
