@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name:  demo-container
-        image: k8sdemo:1.0
+        image: docker.io/library/k8sdemo:1.0
         imagePullPolicy: Never
         ports:
         - containerPort: 8701
